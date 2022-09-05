@@ -7,6 +7,9 @@
 
 import UIKit
 
-class MainCVCell: UICollectionViewCell {
+final class MainCVCell: UICollectionViewCell {
     
+    // MARK: - IBoutlets
+    
+    @IBOutlet weak var labelViewCell: UILabel!
 }

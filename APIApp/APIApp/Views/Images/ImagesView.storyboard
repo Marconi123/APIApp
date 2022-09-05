@@ -8,23 +8,54 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--ImageVC-->
+        <!--Images-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
                 <viewController storyboardIdentifier="ImageView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="ImageVC" customModule="APIApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XrK-kz-l31">
+                                <rect key="frame" x="0.0" y="194" width="414" height="512"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="png-transparent-computer-icons-graphy-gallery-icon-angle-text-rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="qok-yu-dqS">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="512"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="512" id="Q31-Tk-6Zb"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="qok-yu-dqS" firstAttribute="top" secondItem="XrK-kz-l31" secondAttribute="top" id="5Xt-ti-fJS"/>
+                                    <constraint firstItem="qok-yu-dqS" firstAttribute="leading" secondItem="XrK-kz-l31" secondAttribute="leading" id="SsL-ed-MwC"/>
+                                    <constraint firstAttribute="trailing" secondItem="qok-yu-dqS" secondAttribute="trailing" id="Z7y-AY-VX5"/>
+                                    <constraint firstAttribute="bottom" secondItem="qok-yu-dqS" secondAttribute="bottom" id="q10-Cq-CLi"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="XrK-kz-l31" secondAttribute="trailing" id="Af7-Ij-cSI"/>
+                            <constraint firstItem="XrK-kz-l31" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="150" id="Cpb-vZ-GRk"/>
+                            <constraint firstItem="XrK-kz-l31" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="JSG-Cb-dB5"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="XrK-kz-l31" secondAttribute="bottom" constant="150" id="phx-Nz-r3l"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Images" id="NvE-h3-OES"/>
+                    <connections>
+                        <outlet property="imageView" destination="qok-yu-dqS" id="Bxe-IS-HQg"/>
+                        <outlet property="stackView" destination="XrK-kz-l31" id="umg-kn-tsm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="35" y="98"/>
+            <point key="canvasLocation" x="944.92753623188412" y="97.767857142857139"/>
         </scene>
     </scenes>
     <resources>
+        <image name="png-transparent-computer-icons-graphy-gallery-icon-angle-text-rectangle" width="920" height="512"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

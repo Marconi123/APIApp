@@ -22,6 +22,17 @@
 		86B5E5D028BEEAF300765846 /* MainCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E5CF28BEEAF300765846 /* MainCVCell.swift */; };
 		86B5E5D228BEEB3900765846 /* ImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E5D128BEEB3900765846 /* ImageVC.swift */; };
 		86B5E5D628BEEB7700765846 /* UsersTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E5D528BEEB7700765846 /* UsersTBC.swift */; };
+		86B5E5D928C3F1C500765846 /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 86B5E5D828C3F1C500765846 /* NVActivityIndicatorView */; };
+		86B5E5DB28C3F1C500765846 /* NVActivityIndicatorViewExtended in Frameworks */ = {isa = PBXBuildFile; productRef = 86B5E5DA28C3F1C500765846 /* NVActivityIndicatorViewExtended */; };
+		86B5E5DD28C3F1F000765846 /* BasicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E5DC28C3F1F000765846 /* BasicVC.swift */; };
+		86B5E5E128C4145500765846 /* DetailedUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E5E028C4145500765846 /* DetailedUserVC.swift */; };
+		86B5E5E528C42CEF00765846 /* PostsView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B5E5E428C42CEF00765846 /* PostsView.storyboard */; };
+		86B5E5EA28C42D4000765846 /* PostsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E5E928C42D4000765846 /* PostsTVC.swift */; };
+		86B5E5EC28C4AEBA00765846 /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E5EB28C4AEBA00765846 /* ApiConstants.swift */; };
+		86B5E5EF28C4B0A200765846 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E5EE28C4B0A200765846 /* Post.swift */; };
+		86B5E5F328C4B0F800765846 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E5F228C4B0F800765846 /* Comment.swift */; };
+		86B5E5F528C4B11500765846 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E5F428C4B11500765846 /* Photo.swift */; };
+		86B5E5F828C5DAFF00765846 /* CommentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E5F728C5DAFF00765846 /* CommentsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +53,15 @@
 		86B5E5CF28BEEAF300765846 /* MainCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCVCell.swift; sourceTree = "<group>"; };
 		86B5E5D128BEEB3900765846 /* ImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageVC.swift; sourceTree = "<group>"; };
 		86B5E5D528BEEB7700765846 /* UsersTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTBC.swift; sourceTree = "<group>"; };
+		86B5E5DC28C3F1F000765846 /* BasicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicVC.swift; sourceTree = "<group>"; };
+		86B5E5E028C4145500765846 /* DetailedUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedUserVC.swift; sourceTree = "<group>"; };
+		86B5E5E428C42CEF00765846 /* PostsView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostsView.storyboard; sourceTree = "<group>"; };
+		86B5E5E928C42D4000765846 /* PostsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTVC.swift; sourceTree = "<group>"; };
+		86B5E5EB28C4AEBA00765846 /* ApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		86B5E5EE28C4B0A200765846 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		86B5E5F228C4B0F800765846 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		86B5E5F428C4B11500765846 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		86B5E5F728C5DAFF00765846 /* CommentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86B5E5D928C3F1C500765846 /* NVActivityIndicatorView in Frameworks */,
+				86B5E5DB28C3F1C500765846 /* NVActivityIndicatorViewExtended in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +96,7 @@
 		86B5E59B28BEE54D00765846 /* APIApp */ = {
 			isa = PBXGroup;
 			children = (
+				86B5E5ED28C4AEC100765846 /* Api Constants */,
 				86B5E5B228BEE5DB00765846 /* Models */,
 				86B5E5C428BEE97200765846 /* Flow */,
 				86B5E5B128BEE5D300765846 /* Views */,
@@ -99,6 +122,7 @@
 				86B5E5BD28BEE63B00765846 /* Main */,
 				86B5E5C228BEE93E00765846 /* Images */,
 				86B5E5C328BEE95F00765846 /* Users */,
+				86B5E5E328C42CDA00765846 /* Posts */,
 				86B5E5BE28BEE64400765846 /* LaunchScreen */,
 			);
 			path = Views;
@@ -109,8 +133,11 @@
 			children = (
 				86B5E5B328BEE5E200765846 /* User */,
 				86B5E5B428BEE5F400765846 /* Address */,
-				86B5E5B528BEE5FA00765846 /* Geo */,
 				86B5E5BF28BEE69F00765846 /* Company */,
+				86B5E5B528BEE5FA00765846 /* Geo */,
+				86B5E5E228C42CBD00765846 /* Post */,
+				86B5E5F028C4B0DA00765846 /* Comment */,
+				86B5E5F128C4B0E700765846 /* Photo */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -182,9 +209,13 @@
 		86B5E5C428BEE97200765846 /* Flow */ = {
 			isa = PBXGroup;
 			children = (
+				86B5E5DE28C3F1F500765846 /* BasicVC */,
 				86B5E5C528BEE98100765846 /* MainVC */,
 				86B5E5C628BEE98800765846 /* ImageViewsVC */,
 				86B5E5C828BEE9AF00765846 /* UsersVC */,
+				86B5E5DF28C4141C00765846 /* DetailedUsersVC */,
+				86B5E5E628C42D1300765846 /* PostsVC */,
+				86B5E5F628C5DA7C00765846 /* CommentsVC */,
 			);
 			path = Flow;
 			sourceTree = "<group>";
@@ -222,6 +253,78 @@
 			path = UsersVC;
 			sourceTree = "<group>";
 		};
+		86B5E5DE28C3F1F500765846 /* BasicVC */ = {
+			isa = PBXGroup;
+			children = (
+				86B5E5DC28C3F1F000765846 /* BasicVC.swift */,
+			);
+			path = BasicVC;
+			sourceTree = "<group>";
+		};
+		86B5E5DF28C4141C00765846 /* DetailedUsersVC */ = {
+			isa = PBXGroup;
+			children = (
+				86B5E5E028C4145500765846 /* DetailedUserVC.swift */,
+			);
+			path = DetailedUsersVC;
+			sourceTree = "<group>";
+		};
+		86B5E5E228C42CBD00765846 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				86B5E5EE28C4B0A200765846 /* Post.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		86B5E5E328C42CDA00765846 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				86B5E5E428C42CEF00765846 /* PostsView.storyboard */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		86B5E5E628C42D1300765846 /* PostsVC */ = {
+			isa = PBXGroup;
+			children = (
+				86B5E5E928C42D4000765846 /* PostsTVC.swift */,
+			);
+			path = PostsVC;
+			sourceTree = "<group>";
+		};
+		86B5E5ED28C4AEC100765846 /* Api Constants */ = {
+			isa = PBXGroup;
+			children = (
+				86B5E5EB28C4AEBA00765846 /* ApiConstants.swift */,
+			);
+			path = "Api Constants";
+			sourceTree = "<group>";
+		};
+		86B5E5F028C4B0DA00765846 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				86B5E5F228C4B0F800765846 /* Comment.swift */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		86B5E5F128C4B0E700765846 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				86B5E5F428C4B11500765846 /* Photo.swift */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		86B5E5F628C5DA7C00765846 /* CommentsVC */ = {
+			isa = PBXGroup;
+			children = (
+				86B5E5F728C5DAFF00765846 /* CommentsVC.swift */,
+			);
+			path = CommentsVC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -238,6 +341,10 @@
 			dependencies = (
 			);
 			name = APIApp;
+			packageProductDependencies = (
+				86B5E5D828C3F1C500765846 /* NVActivityIndicatorView */,
+				86B5E5DA28C3F1C500765846 /* NVActivityIndicatorViewExtended */,
+			);
 			productName = APIApp;
 			productReference = 86B5E59928BEE54D00765846 /* APIApp.app */;
 			productType = "com.apple.product-type.application";
@@ -266,6 +373,9 @@
 				Base,
 			);
 			mainGroup = 86B5E59028BEE54D00765846;
+			packageReferences = (
+				86B5E5D728C3F1C500765846 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
+			);
 			productRefGroup = 86B5E59A28BEE54D00765846 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -285,6 +395,7 @@
 				86B5E5A628BEE54E00765846 /* Assets.xcassets in Resources */,
 				86B5E5A428BEE54D00765846 /* Main.storyboard in Resources */,
 				86B5E5CC28BEE9E900765846 /* UsersView.storyboard in Resources */,
+				86B5E5E528C42CEF00765846 /* PostsView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,16 +406,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86B5E5EC28C4AEBA00765846 /* ApiConstants.swift in Sources */,
 				86B5E59D28BEE54D00765846 /* AppDelegate.swift in Sources */,
+				86B5E5EA28C42D4000765846 /* PostsTVC.swift in Sources */,
 				86B5E5D028BEEAF300765846 /* MainCVCell.swift in Sources */,
 				86B5E59F28BEE54D00765846 /* SceneDelegate.swift in Sources */,
 				86B5E5C128BEE6AE00765846 /* Company.swift in Sources */,
 				86B5E5B928BEE62300765846 /* Address.swift in Sources */,
+				86B5E5EF28C4B0A200765846 /* Post.swift in Sources */,
+				86B5E5F828C5DAFF00765846 /* CommentsVC.swift in Sources */,
 				86B5E5BC28BEE63100765846 /* Geo.swift in Sources */,
 				86B5E5D628BEEB7700765846 /* UsersTBC.swift in Sources */,
+				86B5E5F528C4B11500765846 /* Photo.swift in Sources */,
+				86B5E5E128C4145500765846 /* DetailedUserVC.swift in Sources */,
+				86B5E5F328C4B0F800765846 /* Comment.swift in Sources */,
 				86B5E5CE28BEEACF00765846 /* MainCVController.swift in Sources */,
 				86B5E5B728BEE61C00765846 /* User.swift in Sources */,
 				86B5E5D228BEEB3900765846 /* ImageVC.swift in Sources */,
+				86B5E5DD28C3F1F000765846 /* BasicVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +641,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		86B5E5D728C3F1C500765846 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		86B5E5D828C3F1C500765846 /* NVActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86B5E5D728C3F1C500765846 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorView;
+		};
+		86B5E5DA28C3F1C500765846 /* NVActivityIndicatorViewExtended */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86B5E5D728C3F1C500765846 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorViewExtended;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 86B5E59128BEE54D00765846 /* Project object */;
 }
