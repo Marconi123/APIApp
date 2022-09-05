@@ -28,6 +28,11 @@
 		86B5E5E128C4145500765846 /* DetailedUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E5E028C4145500765846 /* DetailedUserVC.swift */; };
 		86B5E5E528C42CEF00765846 /* PostsView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B5E5E428C42CEF00765846 /* PostsView.storyboard */; };
 		86B5E5EA28C42D4000765846 /* PostsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E5E928C42D4000765846 /* PostsTVC.swift */; };
+		86B5E5EC28C4AEBA00765846 /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E5EB28C4AEBA00765846 /* ApiConstants.swift */; };
+		86B5E5EF28C4B0A200765846 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E5EE28C4B0A200765846 /* Post.swift */; };
+		86B5E5F328C4B0F800765846 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E5F228C4B0F800765846 /* Comment.swift */; };
+		86B5E5F528C4B11500765846 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E5F428C4B11500765846 /* Photo.swift */; };
+		86B5E5F828C5DAFF00765846 /* CommentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E5F728C5DAFF00765846 /* CommentsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +57,11 @@
 		86B5E5E028C4145500765846 /* DetailedUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedUserVC.swift; sourceTree = "<group>"; };
 		86B5E5E428C42CEF00765846 /* PostsView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostsView.storyboard; sourceTree = "<group>"; };
 		86B5E5E928C42D4000765846 /* PostsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTVC.swift; sourceTree = "<group>"; };
+		86B5E5EB28C4AEBA00765846 /* ApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		86B5E5EE28C4B0A200765846 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		86B5E5F228C4B0F800765846 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		86B5E5F428C4B11500765846 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		86B5E5F728C5DAFF00765846 /* CommentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,7 @@
 		86B5E59B28BEE54D00765846 /* APIApp */ = {
 			isa = PBXGroup;
 			children = (
+				86B5E5ED28C4AEC100765846 /* Api Constants */,
 				86B5E5B228BEE5DB00765846 /* Models */,
 				86B5E5C428BEE97200765846 /* Flow */,
 				86B5E5B128BEE5D300765846 /* Views */,
@@ -124,7 +135,9 @@
 				86B5E5B428BEE5F400765846 /* Address */,
 				86B5E5BF28BEE69F00765846 /* Company */,
 				86B5E5B528BEE5FA00765846 /* Geo */,
-				86B5E5E228C42CBD00765846 /* Posts */,
+				86B5E5E228C42CBD00765846 /* Post */,
+				86B5E5F028C4B0DA00765846 /* Comment */,
+				86B5E5F128C4B0E700765846 /* Photo */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -200,8 +213,9 @@
 				86B5E5C528BEE98100765846 /* MainVC */,
 				86B5E5C628BEE98800765846 /* ImageViewsVC */,
 				86B5E5C828BEE9AF00765846 /* UsersVC */,
-				86B5E5DF28C4141C00765846 /* DetailedUsers */,
-				86B5E5E628C42D1300765846 /* Posts */,
+				86B5E5DF28C4141C00765846 /* DetailedUsersVC */,
+				86B5E5E628C42D1300765846 /* PostsVC */,
+				86B5E5F628C5DA7C00765846 /* CommentsVC */,
 			);
 			path = Flow;
 			sourceTree = "<group>";
@@ -247,19 +261,20 @@
 			path = BasicVC;
 			sourceTree = "<group>";
 		};
-		86B5E5DF28C4141C00765846 /* DetailedUsers */ = {
+		86B5E5DF28C4141C00765846 /* DetailedUsersVC */ = {
 			isa = PBXGroup;
 			children = (
 				86B5E5E028C4145500765846 /* DetailedUserVC.swift */,
 			);
-			path = DetailedUsers;
+			path = DetailedUsersVC;
 			sourceTree = "<group>";
 		};
-		86B5E5E228C42CBD00765846 /* Posts */ = {
+		86B5E5E228C42CBD00765846 /* Post */ = {
 			isa = PBXGroup;
 			children = (
+				86B5E5EE28C4B0A200765846 /* Post.swift */,
 			);
-			path = Posts;
+			path = Post;
 			sourceTree = "<group>";
 		};
 		86B5E5E328C42CDA00765846 /* Posts */ = {
@@ -270,12 +285,44 @@
 			path = Posts;
 			sourceTree = "<group>";
 		};
-		86B5E5E628C42D1300765846 /* Posts */ = {
+		86B5E5E628C42D1300765846 /* PostsVC */ = {
 			isa = PBXGroup;
 			children = (
 				86B5E5E928C42D4000765846 /* PostsTVC.swift */,
 			);
-			path = Posts;
+			path = PostsVC;
+			sourceTree = "<group>";
+		};
+		86B5E5ED28C4AEC100765846 /* Api Constants */ = {
+			isa = PBXGroup;
+			children = (
+				86B5E5EB28C4AEBA00765846 /* ApiConstants.swift */,
+			);
+			path = "Api Constants";
+			sourceTree = "<group>";
+		};
+		86B5E5F028C4B0DA00765846 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				86B5E5F228C4B0F800765846 /* Comment.swift */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		86B5E5F128C4B0E700765846 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				86B5E5F428C4B11500765846 /* Photo.swift */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		86B5E5F628C5DA7C00765846 /* CommentsVC */ = {
+			isa = PBXGroup;
+			children = (
+				86B5E5F728C5DAFF00765846 /* CommentsVC.swift */,
+			);
+			path = CommentsVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,15 +406,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86B5E5EC28C4AEBA00765846 /* ApiConstants.swift in Sources */,
 				86B5E59D28BEE54D00765846 /* AppDelegate.swift in Sources */,
 				86B5E5EA28C42D4000765846 /* PostsTVC.swift in Sources */,
 				86B5E5D028BEEAF300765846 /* MainCVCell.swift in Sources */,
 				86B5E59F28BEE54D00765846 /* SceneDelegate.swift in Sources */,
 				86B5E5C128BEE6AE00765846 /* Company.swift in Sources */,
 				86B5E5B928BEE62300765846 /* Address.swift in Sources */,
+				86B5E5EF28C4B0A200765846 /* Post.swift in Sources */,
+				86B5E5F828C5DAFF00765846 /* CommentsVC.swift in Sources */,
 				86B5E5BC28BEE63100765846 /* Geo.swift in Sources */,
 				86B5E5D628BEEB7700765846 /* UsersTBC.swift in Sources */,
+				86B5E5F528C4B11500765846 /* Photo.swift in Sources */,
 				86B5E5E128C4145500765846 /* DetailedUserVC.swift in Sources */,
+				86B5E5F328C4B0F800765846 /* Comment.swift in Sources */,
 				86B5E5CE28BEEACF00765846 /* MainCVController.swift in Sources */,
 				86B5E5B728BEE61C00765846 /* User.swift in Sources */,
 				86B5E5D228BEEB3900765846 /* ImageVC.swift in Sources */,

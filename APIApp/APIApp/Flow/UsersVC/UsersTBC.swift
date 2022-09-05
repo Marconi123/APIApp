@@ -31,8 +31,8 @@ final class UsersTBC: UITableViewController {
     // Functions
     
     func fetchUsers() {
-        guard let url = URL(string: "https://jsonplaceholder.typicode.com/users") else { return }
-        let task = URLSession.shared.dataTask(with: url) { [weak self] data, _, error in
+        guard let url = URL(string: ApiConstants.usersPath) else { return }
+        URLSession.shared.dataTask(with: url) { [weak self] data, _, error in
 
             if let error = error {
                 print(error)
@@ -49,7 +49,7 @@ final class UsersTBC: UITableViewController {
                 self?.tableView.reloadData()
             }
         }
-        task.resume()
+        .resume()
     }
     
     // MARK: - Nagigation
