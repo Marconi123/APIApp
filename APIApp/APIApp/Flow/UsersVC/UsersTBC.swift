@@ -55,13 +55,12 @@ final class UsersTBC: UITableViewController {
     // MARK: - Nagigation
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "detailedViewSegue", sender: nil)
+        performSegue(withIdentifier: "DetailedUserVCSegue", sender: indexPath)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let destinationVC = segue.destination as? DetailedUserVC else { return }
-        let selectedIndexPath =  tableView.indexPathForSelectedRow
+        let selectedIndexPath = tableView.indexPathForSelectedRow
         destinationVC.sendUser = users[selectedIndexPath!.row]
-    
     }
 }
