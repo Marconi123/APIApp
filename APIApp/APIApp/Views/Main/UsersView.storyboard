@@ -70,10 +70,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="scv-sv-N43">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="816.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="865.66666666666663"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="DvQ-FU-zaG">
-                                                <rect key="frame" x="25" y="25" width="378" height="766.66666666666663"/>
+                                                <rect key="frame" x="25" y="25" width="378" height="815.66666666666663"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="Efa-9Q-jf8">
                                                         <rect key="frame" x="0.0" y="0.0" width="378" height="239.66666666666666"/>
@@ -470,6 +470,14 @@
                                                             </button>
                                                         </subviews>
                                                     </stackView>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIF-En-IIJ">
+                                                        <rect key="frame" x="0.0" y="784.66666666666663" width="378" height="31"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Get Location"/>
+                                                        <connections>
+                                                            <action selector="getLocationBtn:" destination="VzD-kp-nXl" eventType="touchUpInside" id="Kc7-Wa-oD7"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                             </stackView>
                                         </subviews>

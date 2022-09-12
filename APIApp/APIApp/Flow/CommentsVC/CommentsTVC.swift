@@ -8,10 +8,13 @@
 import UIKit
 
 final class CommentsTVC: UITableViewController {
+    
     // MARK: - Properties
 
     var postID:Int?
     var comments: [Comment] = []
+    
+    // MARK: - Life cycle
 
     override func viewDidLoad() {
         super.viewDidLoad()

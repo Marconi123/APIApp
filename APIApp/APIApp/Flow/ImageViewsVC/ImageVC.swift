@@ -28,6 +28,8 @@ final class ImageVC: BasicVC {
         super.viewWillTransition(to: size, with: coordinator)
         updateUI(with: size)
     }
+    
+    // MARK: - Functions
 
     private func fetchImageData() {
         guard let url = URL(string: imageUrl) else { return }

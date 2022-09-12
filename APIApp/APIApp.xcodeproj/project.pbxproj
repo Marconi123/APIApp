@@ -37,14 +37,18 @@
 		86B5E60628C957AE00765846 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 86B5E60528C957AE00765846 /* Alamofire */; };
 		86B5E60C28CD1A9100765846 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 86B5E60B28CD1A9100765846 /* AlamofireImage */; };
 		86B5E61128CD449200765846 /* CommentsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E61028CD449200765846 /* CommentsTVC.swift */; };
-		86B5E61328CD4D9700765846 /* PhotosView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B5E61228CD4D9700765846 /* PhotosView.storyboard */; };
+		86B5E61328CD4D9700765846 /* AlbumsView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B5E61228CD4D9700765846 /* AlbumsView.storyboard */; };
 		86B5E61528CD4DA700765846 /* ToDoSView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B5E61428CD4DA700765846 /* ToDoSView.storyboard */; };
-		86B5E61928CD4E1100765846 /* PhotosCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E61828CD4E1100765846 /* PhotosCVC.swift */; };
 		86B5E61B28CD4E2A00765846 /* TodosTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E61A28CD4E2A00765846 /* TodosTVC.swift */; };
-		86B5E61E28CDEA3200765846 /* PhotosCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E61D28CDEA3200765846 /* PhotosCVCell.swift */; };
 		86B5E62128CDEABD00765846 /* Cache Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E62028CDEABD00765846 /* Cache Manager.swift */; };
 		86B5E62428CE555B00765846 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E62328CE555B00765846 /* NetworkService.swift */; };
 		86B5E62728CE609B00765846 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E62628CE609B00765846 /* Todo.swift */; };
+		86B5E62928CE7C5500765846 /* AlbumsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E62828CE7C5500765846 /* AlbumsTVC.swift */; };
+		86B5E62E28CE8EE900765846 /* PhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E62D28CE8EE900765846 /* PhotoVC.swift */; };
+		86B5E63028CE929000765846 /* MainPhotoCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E62F28CE929000765846 /* MainPhotoCVC.swift */; };
+		86B5E63228CE92A400765846 /* MainPhotoCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E63128CE92A400765846 /* MainPhotoCVCell.swift */; };
+		86B5E63428CEAD1A00765846 /* LocationView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B5E63328CEAD1A00765846 /* LocationView.storyboard */; };
+		86B5E63728CEAD9000765846 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5E63628CEAD9000765846 /* LocationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,14 +79,18 @@
 		86B5E5F728C5DAFF00765846 /* NewPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostVC.swift; sourceTree = "<group>"; };
 		86B5E5FF28C884E800765846 /* DetailedUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedUserVC.swift; sourceTree = "<group>"; };
 		86B5E61028CD449200765846 /* CommentsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTVC.swift; sourceTree = "<group>"; };
-		86B5E61228CD4D9700765846 /* PhotosView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PhotosView.storyboard; sourceTree = "<group>"; };
+		86B5E61228CD4D9700765846 /* AlbumsView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlbumsView.storyboard; sourceTree = "<group>"; };
 		86B5E61428CD4DA700765846 /* ToDoSView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ToDoSView.storyboard; sourceTree = "<group>"; };
-		86B5E61828CD4E1100765846 /* PhotosCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCVC.swift; sourceTree = "<group>"; };
 		86B5E61A28CD4E2A00765846 /* TodosTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosTVC.swift; sourceTree = "<group>"; };
-		86B5E61D28CDEA3200765846 /* PhotosCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCVCell.swift; sourceTree = "<group>"; };
 		86B5E62028CDEABD00765846 /* Cache Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cache Manager.swift"; sourceTree = "<group>"; };
 		86B5E62328CE555B00765846 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		86B5E62628CE609B00765846 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		86B5E62828CE7C5500765846 /* AlbumsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsTVC.swift; sourceTree = "<group>"; };
+		86B5E62D28CE8EE900765846 /* PhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoVC.swift; sourceTree = "<group>"; };
+		86B5E62F28CE929000765846 /* MainPhotoCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPhotoCVC.swift; sourceTree = "<group>"; };
+		86B5E63128CE92A400765846 /* MainPhotoCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPhotoCVCell.swift; sourceTree = "<group>"; };
+		86B5E63328CEAD1A00765846 /* LocationView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LocationView.storyboard; sourceTree = "<group>"; };
+		86B5E63628CEAD9000765846 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,9 +161,6 @@
 			isa = PBXGroup;
 			children = (
 				86B5E5B328BEE5E200765846 /* User */,
-				86B5E5B428BEE5F400765846 /* Address */,
-				86B5E5BF28BEE69F00765846 /* Company */,
-				86B5E5B528BEE5FA00765846 /* Geo */,
 				86B5E5E228C42CBD00765846 /* Post */,
 				86B5E5F028C4B0DA00765846 /* Comment */,
 				86B5E5F128C4B0E700765846 /* Photo */,
@@ -168,6 +173,9 @@
 			isa = PBXGroup;
 			children = (
 				86B5E5B628BEE61C00765846 /* User.swift */,
+				86B5E5B428BEE5F400765846 /* Address */,
+				86B5E5BF28BEE69F00765846 /* Company */,
+				86B5E5B528BEE5FA00765846 /* Geo */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -195,8 +203,9 @@
 				86B5E5C928BEE9DC00765846 /* ImagesView.storyboard */,
 				86B5E5CB28BEE9E900765846 /* UsersView.storyboard */,
 				86B5E5E428C42CEF00765846 /* PostsView.storyboard */,
-				86B5E61228CD4D9700765846 /* PhotosView.storyboard */,
+				86B5E61228CD4D9700765846 /* AlbumsView.storyboard */,
 				86B5E61428CD4DA700765846 /* ToDoSView.storyboard */,
+				86B5E63328CEAD1A00765846 /* LocationView.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -226,8 +235,9 @@
 				86B5E5C828BEE9AF00765846 /* UsersVC */,
 				86B5E5E628C42D1300765846 /* PostsVC */,
 				86B5E60F28CD43E800765846 /* CommentsVC */,
-				86B5E61628CD4DE200765846 /* PhotosVC */,
+				86B5E61628CD4DE200765846 /* AlbumsVC */,
 				86B5E61728CD4DF000765846 /* TodosVC */,
+				86B5E63528CEAD6B00765846 /* Location */,
 			);
 			path = Flow;
 			sourceTree = "<group>";
@@ -318,8 +328,8 @@
 		86B5E60D28CD276600765846 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				86B5E62228CE554F00765846 /* NetworkService */,
 				86B5E61F28CDEAA900765846 /* Cache Manager */,
+				86B5E62228CE554F00765846 /* NetworkService */,
 				86B5E5ED28C4AEC100765846 /* Api Constants */,
 			);
 			path = Managers;
@@ -333,13 +343,15 @@
 			path = CommentsVC;
 			sourceTree = "<group>";
 		};
-		86B5E61628CD4DE200765846 /* PhotosVC */ = {
+		86B5E61628CD4DE200765846 /* AlbumsVC */ = {
 			isa = PBXGroup;
 			children = (
-				86B5E61828CD4E1100765846 /* PhotosCVC.swift */,
-				86B5E61C28CDE9EE00765846 /* Cell */,
+				86B5E62828CE7C5500765846 /* AlbumsTVC.swift */,
+				86B5E62F28CE929000765846 /* MainPhotoCVC.swift */,
+				86B5E63128CE92A400765846 /* MainPhotoCVCell.swift */,
+				86B5E62D28CE8EE900765846 /* PhotoVC.swift */,
 			);
-			path = PhotosVC;
+			path = AlbumsVC;
 			sourceTree = "<group>";
 		};
 		86B5E61728CD4DF000765846 /* TodosVC */ = {
@@ -348,14 +360,6 @@
 				86B5E61A28CD4E2A00765846 /* TodosTVC.swift */,
 			);
 			path = TodosVC;
-			sourceTree = "<group>";
-		};
-		86B5E61C28CDE9EE00765846 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				86B5E61D28CDEA3200765846 /* PhotosCVCell.swift */,
-			);
-			path = Cell;
 			sourceTree = "<group>";
 		};
 		86B5E61F28CDEAA900765846 /* Cache Manager */ = {
@@ -380,6 +384,14 @@
 				86B5E62628CE609B00765846 /* Todo.swift */,
 			);
 			path = Todo;
+			sourceTree = "<group>";
+		};
+		86B5E63528CEAD6B00765846 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				86B5E63628CEAD9000765846 /* LocationVC.swift */,
+			);
+			path = Location;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -453,9 +465,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86B5E61328CD4D9700765846 /* PhotosView.storyboard in Resources */,
+				86B5E61328CD4D9700765846 /* AlbumsView.storyboard in Resources */,
 				86B5E5A928BEE54E00765846 /* LaunchScreen.storyboard in Resources */,
 				86B5E5CA28BEE9DC00765846 /* ImagesView.storyboard in Resources */,
+				86B5E63428CEAD1A00765846 /* LocationView.storyboard in Resources */,
 				86B5E5A628BEE54E00765846 /* Assets.xcassets in Resources */,
 				86B5E5A428BEE54D00765846 /* Main.storyboard in Resources */,
 				86B5E5CC28BEE9E900765846 /* UsersView.storyboard in Resources */,
@@ -475,10 +488,12 @@
 				86B5E59D28BEE54D00765846 /* AppDelegate.swift in Sources */,
 				86B5E62128CDEABD00765846 /* Cache Manager.swift in Sources */,
 				86B5E5EA28C42D4000765846 /* PostsTVC.swift in Sources */,
-				86B5E61928CD4E1100765846 /* PhotosCVC.swift in Sources */,
 				86B5E5D028BEEAF300765846 /* MainCVCell.swift in Sources */,
 				86B5E59F28BEE54D00765846 /* SceneDelegate.swift in Sources */,
+				86B5E62E28CE8EE900765846 /* PhotoVC.swift in Sources */,
 				86B5E5C128BEE6AE00765846 /* Company.swift in Sources */,
+				86B5E63228CE92A400765846 /* MainPhotoCVCell.swift in Sources */,
+				86B5E63028CE929000765846 /* MainPhotoCVC.swift in Sources */,
 				86B5E5B928BEE62300765846 /* Address.swift in Sources */,
 				86B5E5EF28C4B0A200765846 /* Post.swift in Sources */,
 				86B5E5F828C5DAFF00765846 /* NewPostVC.swift in Sources */,
@@ -489,9 +504,10 @@
 				86B5E5D628BEEB7700765846 /* UsersTBC.swift in Sources */,
 				86B5E5F528C4B11500765846 /* Photo.swift in Sources */,
 				86B5E5F328C4B0F800765846 /* Comment.swift in Sources */,
-				86B5E61E28CDEA3200765846 /* PhotosCVCell.swift in Sources */,
 				86B5E60028C884E800765846 /* DetailedUserVC.swift in Sources */,
+				86B5E63728CEAD9000765846 /* LocationVC.swift in Sources */,
 				86B5E5CE28BEEACF00765846 /* MainCVController.swift in Sources */,
+				86B5E62928CE7C5500765846 /* AlbumsTVC.swift in Sources */,
 				86B5E5B728BEE61C00765846 /* User.swift in Sources */,
 				86B5E5D228BEEB3900765846 /* ImageVC.swift in Sources */,
 				86B5E61B28CD4E2A00765846 /* TodosTVC.swift in Sources */,

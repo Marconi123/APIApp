@@ -48,8 +48,8 @@ final class DetailedUserVC: UIViewController {
     }
     
     @IBAction func photosActionBtn() {
-        let storyboard = UIStoryboard(name: "PhotosView", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "PhotosCVC") as! PhotosCVC
+        let storyboard = UIStoryboard(name: "AlbumsView", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "AlbumsTVC") as! AlbumsTVC
         vc.user = sendUser
         navigationController?.pushViewController(vc, animated: true)
     }
@@ -57,6 +57,12 @@ final class DetailedUserVC: UIViewController {
     @IBAction func postsActionBtn() {
         let storyboard = UIStoryboard(name: "PostsView", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "PostsTVC") as! PostsTVC
+        vc.user = sendUser
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    @IBAction func getLocationBtn(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "LocationView", bundle: nil)
+        let vc = storyboard.instantiateViewController(identifier: "Location") as! LocationVC
         vc.user = sendUser
         navigationController?.pushViewController(vc, animated: true)
     }

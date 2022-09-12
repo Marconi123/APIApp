@@ -10,6 +10,7 @@ import SwiftyJSON
 import UIKit
 
 final class PostsTVC: UITableViewController {
+    
     // MARK: - IBoutlets
 
     @IBOutlet private var table: UITableView!

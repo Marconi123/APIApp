@@ -11,7 +11,11 @@ import NVActivityIndicatorViewExtended
 
 class BasicVC: UIViewController, NVActivityIndicatorViewable {
     
+    // MARK - Properties
+    /// Indicatior
     var defaultIndicator = NVActivityIndicatorType.ballBeat
+    
+    // MARK: - Functions
     
     func startAnimation(message: String?, type: NVActivityIndicatorType){
         startAnimating(message: message, type: type)
