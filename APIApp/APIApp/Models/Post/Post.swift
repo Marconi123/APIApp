@@ -12,6 +12,7 @@ struct Post: Codable, CaseIterable {
     static var allCases: [Post] = []
     
     let userId: Int?
+    let id: Int?
     let title: String?
     let body: String?
 }
